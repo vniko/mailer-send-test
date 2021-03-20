@@ -24,14 +24,15 @@ php artisan db:seed
 # install npm packages
 yarn 
 
+# build app
+yarn build
+
 # start Laravel
 php artisan serve
 
-# start Nuxt
-npm run dev
 
 # start queue worker
 php artisan queue:work
 ```
 
-Access application at `http://localhost:3000`.
+Access application at `http://localhost:8000`.
