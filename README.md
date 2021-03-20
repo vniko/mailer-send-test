@@ -3,8 +3,6 @@
 
 ## Usage
 
-### Development
-
 ```bash
 # clone the repository
 git clone https://github.com/vniko/mailer-send-test
@@ -31,6 +29,9 @@ php artisan serve
 
 # start Nuxt
 npm run dev
+
+# start queue worker
+php artisan queue:work
 ```
 
 Access application at `http://localhost:3000`.
